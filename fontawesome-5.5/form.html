@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+   
+      
+      <h1><span>Mhide's</span> labs</h1>
+      <h2>Home of Code</h2>
+      <ul>
+        <a href="tel:08165623776"><li>Phone Number</li></a>
+        <li>Instagram</li>
+        <li>Whatsapp</li>
+      </ul>
+      <a href="#" class="stacks">
+      <fieldset class="border">
+        <h3>
+          Check out my<br />
+          <span style="margin-left: 19px">stacks</span>
+        </h3>
+      </fieldset>
+    </a>
+      <img src="./earth.png" class="img2" />
+      <div class="box">
+       
+      </div>
+      <h3 id="spin">MhideFactory</h3>
+
+      <h4>
+        Unscripted Mind<br />
+        Of a Developer
+      </h4>
+
+      <code>[:Raw", Unfilterd", "Live"]</code>
+
+      <a href="#" class="port">
+        <div class="border-2">
+          <i class="fas fa-user"></i>
+          <h5>My Portfolio</h5>
+        </div>
+      </a>
+      <img src="./hands.png" class="img1" />
+      <marquee class="hi">
+        <h3 style="text-transform: capitalize;">I am Oluwaseyi Akinade a software developer based in Ilorin, Kwara State, Nigeria.</h3>
+      </marquee>
+      <img src="./images2/html-removebg-preview.png" class="html">
+      <img src="./_PHP__Sticker_for_Sale_by_RoundCorner-removebg-preview (2).png" class="php">
+      <style>
+                @media (max-width:700px){
+                  .php{
+                    width: 210px;
+                    position: absolute;
+                    top: 25%;
+                    filter: blur(3px);
+                    left: 70%;
+                    transform: rotateY(200deg);
+                    z-index: -1;
+                    transition-duration:1s ;
+                    
+                  }
+                  .php:hover{
+                    transform: rotateY(0deg) translateX(-200px);
+                    z-index: 111;
+                    filter: blur(0);
+                  }
+                  
+
+                  .html:hover{
+                    transform: rotate3d(202,123,101,360deg) translateX(200px);
+                    z-index: 111;
+                    filter: blur(0) drop-shadow(12px 10px 10px black);
+                  }
+                  .html{
+                    width: 170px;
+                    position: absolute;
+                    top: 25%;
+                    filter: blur(3px);
+                    left: -2%;
+                    z-index: -1;
+                  }
+                .fa-user {
+                  margin-top:50px ;
+                  position: absolute;
+                  z-index: 2901901290219209;
+                }
+
+                .img1{
+                  position: absolute;
+                  transition-duration: 1s;
+                  z-index: 1;
+                  top: -2%;
+                  transform: scale(0);
+                  opacity: 0;
+          }
+          img2{
+            transition-duration: 1.8s;
+
+          }
+
+          .port:hover ~ .img1{
+            transform: scale(1);
+            opacity: 1;
+          }
+          .port:hover ~ marquee{
+            display: block;
+            opacity: 1;
+          }
+          #spin{
+            margin-left: 12% ;
+            margin-top: -5%;
+          }
+          marquee{
+            display: block;
+            position: absolute;
+            width: 100px;
+            top: 36%;
+            left: 43%;
+            z-index: 1111;
+            color: black;
+            transform: rotate(-6deg);
+            transition-duration: 2s;
+            opacity: 0;
+          }
+
+          .stacks:active{
+         color:red 
+        }
+        }
+        
+      </style>
+      <script>
+        document.getElementsByClassName("stacks").onclick= function(){
+          alert("helloworld")
+        }
+      </script>
+    </div>
+  </body>
+</html>
